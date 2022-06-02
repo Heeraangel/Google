@@ -27,13 +27,11 @@ public class Sample {
 				break;
 		}
 		driver.get(url);
-<<<<<<< HEAD
 		//person 2 updated
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("wikipedia",Keys.ENTER);
-=======
+
 		//person 1 Updated
 //	driver.findElement(By.xpath("//input[@name='q']")).sendKeys("wikipedia",Keys.ENTER);
->>>>>>> 7a4dfc512e3724b0ec3034fdfe402bbfa3cb000f
 		driver.quit();
 	}
 }
