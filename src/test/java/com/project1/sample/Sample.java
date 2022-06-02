@@ -27,7 +27,7 @@ public class Sample {
 				break;
 		}
 		driver.get(url);
-		//person2 Updated
+		//person 2 updated
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("wikipedia",Keys.ENTER);
 		driver.quit();
 	}
